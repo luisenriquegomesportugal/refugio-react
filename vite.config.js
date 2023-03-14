@@ -20,6 +20,7 @@ export default defineConfig({
         }),
         react(),
     ],
+    base: '/refugio-react',
     build: {
         outDir: 'docs'
     }
