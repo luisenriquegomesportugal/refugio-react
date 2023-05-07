@@ -1,10 +1,10 @@
 export const useFetch = (url, init = {}, type = 'json') =>
-    fetch(`http://arearefugio.com.br/api/${url}`, init)
+    fetch(`https://arearefugio.com.br/api/${url}`, init)
         .then(res => res[type]());
 
 export const useFetchMutation = (url, data, init = {}, type = 'json') =>
     fetch(
-        `http://arearefugio.com.br/api/${url}`,
+        `https://arearefugio.com.br/api/${url}`,
         Object.assign({}, {
             method: 'POST',
             headers: {
