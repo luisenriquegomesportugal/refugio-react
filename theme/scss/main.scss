@@ -55,12 +55,6 @@
 */
 
 
-
-
-
-
-
-
 ////////////////////
 // Abstracts
 ////////////////////
@@ -70,12 +64,10 @@
 @import "~bootstrap/scss/bootstrap";
 
 
-
 ////////////////////
 // Global
 ////////////////////
 @import "./base/base";
-
 @import "./preloader";
 
 
@@ -101,3 +93,17 @@
 // Application pages
 ////////////////////
 @import "./application/pages";
+
+
+////////////////////
+// Libraries
+////////////////////
+@import 'lightgallery/scss/lightgallery.scss';
+@import 'lightgallery/scss/lg-zoom.scss';
+@import "react-loading-skeleton/dist/skeleton.css";
+
+
+////////////////////
+// Custom
+////////////////////
+@import './_custom.scss';

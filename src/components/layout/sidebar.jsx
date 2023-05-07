@@ -12,13 +12,13 @@ export const Sidebar = () => {
     return <div className="deznav">
         <div className="deznav-scroll">
             <ul className="metismenu" id="menu">
-                <li className="nav-label first">Inicio</li>
-                <li>
-                    <Link to="/dashboard" className="ai-icon" aria-expanded="false">
-                        <i className="flaticon-381-home"></i>
-                        <span className="nav-text">Dashboard</span>
-                    </Link>
-                </li>
+                {/*<li className="nav-label first">Inicio</li>*/}
+                {/*<li>*/}
+                {/*    <Link to="/dashboard" className="ai-icon" aria-expanded="false">*/}
+                {/*        <i className="flaticon-381-home"></i>*/}
+                {/*        <span className="nav-text">Dashboard</span>*/}
+                {/*    </Link>*/}
+                {/*</li>*/}
                 <li className="nav-label">Refukids</li>
                 <li>
                     <Link to="/refukids/lista" className="ai-icon" aria-expanded="false">
@@ -39,13 +39,13 @@ export const Sidebar = () => {
                     </ul>
 
                 </li>
-                <li className="nav-label">Configurações</li>
-                <li>
-                    <a href="#" className="ai-icon" aria-expanded="false">
-                        <i className="flaticon-381-key"></i>
-                        <span className="nav-text">Liberar acesso</span>
-                    </a>
-                </li>
+                {/*<li className="nav-label">Configurações</li>*/}
+                {/*<li>*/}
+                {/*    <a href="#" className="ai-icon" aria-expanded="false">*/}
+                {/*        <i className="flaticon-381-key"></i>*/}
+                {/*        <span className="nav-text">Liberar acesso</span>*/}
+                {/*    </a>*/}
+                {/*</li>*/}
             </ul>
         </div>
     </div>;

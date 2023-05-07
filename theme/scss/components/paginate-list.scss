@@ -1,0 +1,73 @@
+.pagination {
+  display: flex;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  justify-content: flex-end !important;
+
+  .pagination-item {
+    height: 48px;
+    width: 48px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 0;
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 40px;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0 !important;
+
+    &:active {
+      box-shadow: inset 0 0 3px #111;
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+      background: var(--primary) !important;
+      color: #fff !important;
+      border: 5px solid #efefef !important;
+    }
+
+    &.disabled {
+      background: #efefef !important;
+      color: #7e7e7e !important;
+
+      &:hover,
+      &:focus,
+      &.active {
+        background: #efefef !important;
+      }
+    }
+  }
+
+  .pagination-item.prev,
+  .pagination-item.next {
+    border-radius: 4px;
+    margin: 0 5px;
+    line-height: 48px;
+    font-size: 1.2rem;
+
+    &:hover,
+    &:focus,
+    &.active {
+      background: var(--primary) !important;
+      color: #fff !important;
+      border: 0 !important;
+    }
+  }
+
+  .pagination-item:nth-child(2) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+  }
+
+  .pagination-item:nth-last-child(2) {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+}

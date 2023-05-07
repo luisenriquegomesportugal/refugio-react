@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -14,20 +14,30 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.4",
+    "lightgallery": "^2.7.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "metismenu": "^3.0.7",
     "moment": "^2.29.4",
     "perfect-scrollbar": "^1.5.5",
+    "qrcode": "^1.5.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.8",
+    "react-loading-skeleton": "^3.2.0",
+    "react-paginated-list": "^1.1.6",
+    "react-query": "^3.39.3",
     "react-router-dom": "^6.9.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "datatables.net": "^1.13.4",
     "sass": "^1.59.2",
     "vite": "^4.1.0"
   }

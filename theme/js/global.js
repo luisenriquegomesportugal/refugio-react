@@ -3,7 +3,7 @@ export const DezSettings = (containerLayout) => {
     let body = $('body');
 
     body.attr("data-theme-version", "light");
-    body.attr("data-typography", "roboto");
+    body.attr("data-typography", "poppins");
     body.attr("data-layout", "vertical");
     body.attr("data-nav-headerbg", "color_1");
     body.attr("data-headerbg", "color_1");

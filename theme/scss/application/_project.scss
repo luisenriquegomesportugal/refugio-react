@@ -24,7 +24,7 @@
 		height:48px;
 		width:48px;
 		border-radius:50px;
-		line-height:48px;
+		line-height:46px;
 		font-weight: 600;
 		font-size:20px;
 		text-align:center;
@@ -126,11 +126,11 @@
     display: flex;
 	li{
 		margin-right: -10px;
-		img{
-			height: 40px;
-			width: 40px;
+		img, span {
+			height: 48px;
+			width: 48px;
 			border-radius: 45px;
-			border: 2px solid #fff;
+			border: 3px solid #fff;
 		}
 	}
 }

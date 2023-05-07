@@ -295,16 +295,6 @@ export const ZenixJS = (() => {
         });
     }
 
-    const handleLightgallery = function () {
-        if (jQuery('#lightgallery').length > 0) {
-            $('#lightgallery').lightGallery({
-                loop: true,
-                thumbnail: true,
-                exThumbImage: 'data-exthumbimage'
-            });
-        }
-    }
-
     const handleSmartWizard = function () {
         if (jQuery('#smartwizard').length > 0) {
             $(document).ready(function () {
