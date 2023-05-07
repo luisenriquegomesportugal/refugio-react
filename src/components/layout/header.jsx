@@ -8,13 +8,6 @@ export const Header = () => <div className="header">
                 </div>
                 <ul className="navbar-nav header-right">
                     <li className="nav-item dropdown header-profile">
-                        <a className="nav-link" role="button" data-bs-toggle="dropdown">
-                            <img src="images/profile/pic1.jpg" width="20" alt=""/>
-                            <div className="header-info">
-                                <span>Luis Portugal</span>
-                                <small>luisenriquegomesportugal@gmail.com</small>
-                            </div>
-                        </a>
                         <div className="dropdown-menu dropdown-menu-end">
                             <a href="https://arearefugio.com.br" className="dropdown-item ai-icon">
                                 <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" className="text-danger"
